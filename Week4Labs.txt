@@ -1,0 +1,51 @@
+1	data set
+A data set is a collection of data.
+
+2	pattern matching
+Python has a string find function that you can use to find items in a string.
+
+3	for..in loop
+A for..in loop is used to process through a list of items or series of lines in a file. It simplifies how to access individual items in a list.
+
+CYB 216 / Pattern Matching
+
+Discussion Questions
+1. What is the command to change directories in Linux?
+The command to change directories is 'CD'
+
+2. What is the purpose of splitlines() function?
+Reads each line into a string.
+
+3. What is the numlines+=1 role in the code?
+This numllines += is adding value per line item. It's the equivalent of x = x + 1.
+
+
+Discussion Questions
+1. What is the function you use to search for a string?
+readline() function.
+
+2. What is the purpose of the strip() function?
+To strip empty spaces from both sides of a string
+
+3. What is the command to clear the terminal?
+Clear
+
+Discussion Questions
+1. How would you determine the number of flows for each abnormal traffic pattern?
+Look for all the lines within file marked as adnormal and add each findings +1 to the counter.
+
+2. What is the purpose of the split() function?
+Break a list up into individual pieces of information separate from the whole/list.
+
+Discussion Questions
+1. In this lab, we used two methods (split and splitlines) for counting the number of lines and labels within the kddcup.data.corrected data set. What is difference between them?
+split() breaks a string into parts (like a csv file with deliniter spaces separated by commas) and splitlines() break items in to separate entities by line boundaries (lines terminated with \n or \r (newline or linefeed).
+
+
+2. In this lab, we used the find method for searching for patterns. What does the -1 mean below?
+-1 means that none were found (0 is still more than -1).
+
+3. This lab demonstrated how multiple small programs can be combined to form one larger program. Taking this a step backward, how would you take small scripts and add additional code to them? Meaning if you added code and are running into problems, what is an effective way to troubleshoot?
+An effective way is to place pieces of code into their own functions. This helps with making the code more process and you can focus on a particular function in a specific area of code and not have it disrupt parts of the code known to work correctly.
+
+jl
